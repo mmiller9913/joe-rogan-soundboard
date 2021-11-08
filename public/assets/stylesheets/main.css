@@ -1,0 +1,351 @@
+/*
+  ========================================
+    HTML Background Color
+  ========================================
+*/
+
+html {
+  background-color:rgb(1, 0, 4);
+  min-width: 1900px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.joe-rogan-image {
+  width: 1550px;
+  height: 1550px;
+  position: absolute;
+  bottom: 0;
+  left: .9vw;
+}
+
+.joe-rogan-image-box {
+  width: 1750px;
+  height: 1750px;
+  position: sticky;
+  left: 10vw;
+}
+
+button {
+  background:linear-gradient(to bottom,	rgb(157, 32, 35) 5%,rgb(245, 149, 79) 100%);
+  border-radius: 50%;
+  display: inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+  padding:32px 6px;
+  height: 250px;
+  width: 250px;
+  outline: none;
+}
+
+button:hover {
+	background:linear-gradient(to bottom,	rgb(157, 32, 35) 40%,rgb(245, 149, 79) 100%);
+  background-color: rgb(222, 100, 46);
+  outline: none;
+  cursor: pointer;
+  color: red;
+}
+
+button:active {
+  outline: none;
+  border: 0;
+}
+
+#button-wow {
+  position: relative;
+  left: 75px;
+  bottom: -380px;
+}
+
+#button-jamie {
+  position: relative;
+  left: 65px;
+  bottom: -515px;
+}
+
+#button-fuck-you-money {
+  position: relative;
+  left: -295px;
+  bottom: -775px;
+}
+
+#button-motivational {
+  position: relative;
+  left: -810px;
+  bottom: -900px;
+}
+
+#button-DMT {
+  position: relative;
+  left: -1030px;
+  bottom: -650px;
+}
+
+#button-MMM {
+  position: relative;
+  left: -1340px;
+  bottom: -1200px;
+}
+
+#button-kimchi-and-elk {
+  position: relative;
+  left: 210px;
+  bottom: -800px;
+}
+
+#button-when-chimps-attack {
+  position: relative;
+  left: 300px;
+  bottom: -100px;
+}
+
+#button-huge-balls {
+  position: relative;
+  left: -230px;
+  bottom: 70px;
+}
+
+#button-lazy-pot-smokers {
+  position: relative;
+  left: 70px;
+  bottom: -100px;
+}
+
+#button-too-high {
+  position: relative;
+  left: 5px;
+  bottom: -320px;
+}
+
+#button-jesus-christ-jamie {
+  position: relative;
+  left: 40px;
+  bottom: -370px;
+}
+
+#button-savage-chickens {
+  position: relative;
+  left: 1090px;
+  bottom: -280px;
+}
+
+#button-heat-shock-proteins {
+  position: relative;
+  left: 1110px;
+  bottom: -365px;
+}
+
+#button-sauna {
+  position: relative;
+  left: 600px;
+  bottom: -595px;
+}
+
+#button-immune-system {
+  position: relative;
+  left: 630px;
+  bottom: -650px;
+}
+
+#button-butthole {
+  position: relative;
+  left: 220px;
+  bottom: 150px
+}
+
+#button-carnivore-diet {
+  position: relative;
+  left: -205px;
+  bottom: 400px;
+}
+
+#button-its-entirely-possible {
+  position: relative;
+  left: 800px;
+  bottom: 770px;
+}
+
+#button-throat-clear {
+  position: relative;
+  left: 270px;
+  bottom: 760px;
+}
+
+/*
+
+--Trying to make it look better ok desktop
+
+html {
+  background-color:rgb(1, 0, 4);
+  min-width: 1200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.joe-rogan-image {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  bottom: 0;
+  left: 1vw;
+}
+
+.joe-rogan-image-box {
+  width: 800px;
+  height: 500px;
+  position: sticky;
+  left: 20vw;
+  border: 1px solid red;
+}
+
+button {
+  background:linear-gradient(to bottom,	rgb(157, 32, 35) 5%,rgb(245, 149, 79) 100%);
+  border-radius: 50%;
+  display: inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  padding:32px 6px;
+  height: 100px;
+  width: 100px;
+  outline: none;
+}
+
+button:hover {
+	background:linear-gradient(to bottom,	rgb(157, 32, 35) 40%,rgb(245, 149, 79) 100%);
+  background-color: rgb(222, 100, 46);
+  outline: none;
+  cursor: pointer;
+  color: red;
+}
+
+button:active {
+  outline: none;
+  border: 0;
+}
+
+#button-wow {
+  position: relative;
+  left: 75px;
+  bottom: 100px;
+}
+
+#button-jamie {
+  position: relative;
+  left: 65px;
+  bottom: -515px;
+}
+
+#button-fuck-you-money {
+  position: relative;
+  left: -295px;
+  bottom: -775px;
+}
+
+#button-motivational {
+  position: relative;
+  left: -810px;
+  bottom: -900px;
+}
+
+#button-DMT {
+  position: relative;
+  left: -1030px;
+  bottom: -650px;
+}
+
+#button-MMM {
+  position: relative;
+  left: -1340px;
+  bottom: -1200px;
+}
+
+#button-kimchi-and-elk {
+  position: relative;
+  left: 210px;
+  bottom: -800px;
+}
+
+#button-when-chimps-attack {
+  position: relative;
+  left: 300px;
+  bottom: -100px;
+}
+
+#button-huge-balls {
+  position: relative;
+  left: -230px;
+  bottom: 70px;
+}
+
+#button-lazy-pot-smokers {
+  position: relative;
+  left: 70px;
+  bottom: -100px;
+}
+
+#button-too-high {
+  position: relative;
+  left: 5px;
+  bottom: -320px;
+}
+
+#button-jesus-christ-jamie {
+  position: relative;
+  left: 40px;
+  bottom: -370px;
+}
+
+#button-savage-chickens {
+  position: relative;
+  left: 1090px;
+  bottom: -280px;
+}
+
+#button-heat-shock-proteins {
+  position: relative;
+  left: 1110px;
+  bottom: -365px;
+}
+
+#button-sauna {
+  position: relative;
+  left: 600px;
+  bottom: -595px;
+}
+
+#button-immune-system {
+  position: relative;
+  left: 630px;
+  bottom: -650px;
+}
+
+#button-butthole {
+  position: relative;
+  left: 220px;
+  bottom: 150px
+}
+
+#button-carnivore-diet {
+  position: relative;
+  left: -205px;
+  bottom: 400px;
+}
+
+#button-its-entirely-possible {
+  position: relative;
+  left: 800px;
+  bottom: 770px;
+}
+
+#button-throat-clear {
+  position: relative;
+  left: 270px;
+  bottom: 760px;
+}
+*/
