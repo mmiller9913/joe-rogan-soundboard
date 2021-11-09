@@ -1,26 +1,3 @@
-// event listeners for button
-/*
-document.getElementById('button-wow').addEventListener('click', playSound);
-document.getElementById('button-jamie').addEventListener('click', playSound);
-document.getElementById('button-fuck-you-money').addEventListener('click', playSound);
-document.getElementById('button-motivational').addEventListener('click', playSound);
-document.getElementById('button-DMT').addEventListener('click', playSound);
-document.getElementById('button-MMM').addEventListener('click', playSound);
-document.getElementById('button-kimchi-and-elk').addEventListener('click', playSound);
-document.getElementById('button-when-chimps-attack').addEventListener('click', playSound);
-document.getElementById('button-huge-balls').addEventListener('click', playSound); 
-document.getElementById('button-lazy-pot-smokers').addEventListener('click', playSound); 
-document.getElementById('button-too-high').addEventListener('click', playSound);
-document.getElementById('button-savage-chickens').addEventListener('click', playSound);
-document.getElementById('button-jesus-christ-jamie').addEventListener('click', playSound);
-document.getElementById('button-heat-shock-proteins').addEventListener('click', playSound);
-document.getElementById('button-sauna').addEventListener('click', playSound);
-document.getElementById('button-immune-system').addEventListener('click', playSound);
-document.getElementById('button-butthole').addEventListener('click', playSound);
-document.getElementById('button-carnivore-diet').addEventListener('click', playSound);
-document.getElementById('button-its-entirely-possible').addEventListener('click', playSound);
-document.getElementById('button-throat-clear').addEventListener('click', playSound);
-*/
 var buttons = document.querySelectorAll(".btn").length;
 for (var i = 0; i < buttons ; i++) {
     document.querySelectorAll(".btn")[i].addEventListener("click", function() {
